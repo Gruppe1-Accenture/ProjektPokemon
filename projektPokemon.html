@@ -2,41 +2,42 @@
 <html lang = "de">
    <head> 
      <title>Pokemon</title> 
-     <meta charset="UTF-8" /> 
+     <meta charset="UTF-8" />
+     <link rel="stylesheet" href="projektPokemon.css">
     
    </head> 
       <body> 
           <h1>Pokemon</h1>
-          <h2>Pokedex</h2>
-          <p>Mithilfe des Pokedex könnt ihr euch sämtliche Pokemon sowie deren Atribute und sonstige Information anzeigen lassen</p>
+          <h2 class="links">Pokedex</h2>
+          <p class="links">Mithilfe des Pokedex könnt ihr euch sämtliche Pokemon sowie deren Atribute und sonstige Information anzeigen lassen</p>
        <form> 
-           <input type id="input" placeholder ="Name des Pokemons" /> 
+           <input type id="input" placeholder ="Name oder ID des Pokemons" /> 
            
            <button type="button" id="button">
            <span>Suchen</span>
            </button> 
        </form> 
-       <article>
+       <article id="gesuchtesPokemon"class="Pokemon hidden">
         <h2 id="namePokemon"></h2>
-        <img id="gesPokemon" src= "" width="100" height="150">
+        <img id="gesPokemon" src= "">
         <p id="beschreibung"></p>
        </article>
 
-        <article>
+    <article class="weeklypokemon">
   <h1>Weekly Pokemons</h1>
-  <article>
+  <article class="Pokemon">
     <h2>Mewtwo</h2>
     <img src= "Mewtwo.PNG.png" width="100" height="150">
     <p>Mewtu ist ein Legendäres Pokémon mit dem Typ Psycho und existiert seit der ersten Spielgeneration.</p>
   </article>
 
-  <article >
+  <article class="Pokemon">
     <h2>Giratina</h2>
     <img src="giratina.png"width="100" height="150">
     <p>Giratina ist ein Legendäres Pokémon mit den Typen Geist und Drache und existiert seit der vierten Spielgeneration.</p>
   </article>
 
-  <article >
+  <article class="Pokemon">
     <h2>Xerneas</h2>
     <img src="xerneas.png"width="100" height="150">
     <p>Xerneas ist ein Legendäres Pokémon mit dem Typ Fee und existiert seit der sechsten Spielgeneration.</p>

@@ -1,0 +1,73 @@
+body {
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.5em;
+margin: 0;
+
+}
+h1 {
+    padding-top: 40px;
+    padding-left: 10px;
+    margin: 0px;
+    height: 100px;
+    background-color: rgb(231, 37, 37);
+    color: white;
+
+}
+article h1 {
+    padding-top: 0px;
+    padding-left: 10px;
+    margin: 0;
+    height: 50px;
+    background-color: rgb(231, 37, 37);
+    color: white;
+
+}
+.Pokemon {
+    margin: 10px;
+    padding: 5px;
+background-color: rgba(255, 255, 255, 0.801);
+outline: solid 2px;
+text-transform: capitalize;
+
+}
+
+.weeklypokemon{
+    border-top: solid 5px;
+    border-bottom: solid 5px;
+    border-color: black;
+    background-image: url("graslandschaft.PNG");
+
+}
+
+.links {
+
+padding-left: 10px;
+
+}
+
+#input {
+
+    height: 50px;
+    width: 25%;
+
+}
+#button {
+
+    background-color: rgb(231, 37, 37);
+    color: white;
+    height: 56px;
+    width: 10%;
+    font-weight: bolder;
+}
+
+.hidden {
+
+    display: none;
+}
+
+form {
+
+margin: 10px;
+
+}
