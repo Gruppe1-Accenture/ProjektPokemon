@@ -1,5 +1,10 @@
-let index = document.getElementById("input");
-document.getElementById("button").onclick = function() {myFunction()};
+let index = null;
+let pokemon = null;
+document.getElementById("button").onclick = myFunction;
 
-function myFunction() {
-    window.location.href = "pokemon.html";};
+async function myFunction() {
+    index = document.getElementById("input").value;
+    pokemon = await fetch("https://pokeapi.co/api/v2/pokemon/" + index + "/");
+    pokemon = await pokemon.json();
+    console.log(pokemon);
+};
